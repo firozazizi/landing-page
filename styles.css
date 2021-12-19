@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.header {
+    background: rgb(0, 0, 0);
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.background {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.background > h4 {
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-family: sans-serif;
+}
+
+h4 {
+    margin-bottom:16px;
+}
+.banner {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+img {
+    border: 3px solid;
+    border-radius: 15px;
+    border-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.quote {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 400px;
+    padding-left: 400px;
+    background-color: #cf4f4f;
+    color: white;
+}
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 45px;
+}
+
+.information {
+    font-family: sans-serif;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+
+.info {
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.sepcards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 10px 20px 10px 20px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.box img {
+    width: 100px;
+    height: 100px;
+}
+
+.jumpout {
+    flex-shrink: 0;
+    flex-basis: 600px;
+    flex-wrap: nowrap;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.signup {
+    background-color: black;
+    color: white;
+    padding: 50px 150px;
+    margin: 100px 300px 100px 300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding:20px;
+}
+
+.signature {
+    align-items: flex-end;
+    justify-content: flex-end;
+}
