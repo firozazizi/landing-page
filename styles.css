@@ -57,6 +57,10 @@ a {
     padding-left: 400px;
     background-color: #cf4f4f;
     color: white;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -111,7 +115,7 @@ button {
 
 .jumpout {
     flex-shrink: 0;
-    flex-basis: 600px;
+    flex-basis: 1;
     flex-wrap: nowrap;
     font-weight: 300;
     margin-bottom: 12px;
@@ -125,6 +129,7 @@ button {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
+    flex-shrink: 0;
 }
 
 .footer {
@@ -136,10 +141,15 @@ button {
 }
 
 .signature {
-    align-items: flex-end;
-    justify-content: flex-end;
+    align-items: right;
+    justify-content: right;
+    flex-shrink: 0;
 }
 
 .sudescript {
-    flex: 1 0 0;
+    flex-shrink:0;
+}
+
+p {
+    margin: 0;
 }
