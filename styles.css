@@ -97,6 +97,7 @@ button {
     background-color: black;
     color: white;
     border-radius: 15px;
+    flex-grow: 0;
 }
 
 .description {
@@ -137,4 +138,8 @@ button {
 .signature {
     align-items: flex-end;
     justify-content: flex-end;
+}
+
+.sudescript {
+    flex: 1 0 0;
 }
